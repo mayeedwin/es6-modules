@@ -1,4 +1,4 @@
-import { Add } from './Modules/Add.js';
+import { Add } from './modules/Add.js';
 
 // Get the form by class and input elements by id
 let form = document.querySelector('.form');
