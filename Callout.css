@@ -1,0 +1,15 @@
+:root {
+    --callout-color: #034b42;
+    --callout-background: #e0f2f1;
+}
+
+.callout {
+    color: var(--callout-color);
+    text-shadow: none;
+    line-height: 1.6;
+    -webkit-tap-highlight-color: transparent;
+    background: var(--callout-background);
+    font-size: 14px;
+    border-left: 5px solid var(--callout-color);
+    padding: 10px;
+}

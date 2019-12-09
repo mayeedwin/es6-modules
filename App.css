@@ -1,0 +1,91 @@
+/* App styling */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+main,
+header,
+footer {
+  margin: 40px auto;
+  width: -moz-max-content;
+  width: fit-content;
+  width: intrinsic;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #222;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  background: #eaeaea;
+  padding: 7px;
+  border-radius: 8px;
+  width: -moz-max-content;
+  width: fit-content;
+  width: intrinsic;
+  transform: rotate(-1deg);
+  margin: 0 auto;
+}
+
+input {
+  background: #fafafa;
+  display: block;
+  width: 250px;
+  color: #222;
+  font-size: 12px;
+  letter-spacing: 1px;
+  -webkit-appearance: none;
+  margin: 10px auto;
+  border: 2px solid #222;
+  border-radius: 7px;
+  outline: none;
+  padding: 10px;
+}
+
+button,
+.result {
+  width: -moz-max-content;
+  width: fit-content;
+  width: intrinsic;
+  text-align: left;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  background-color: #fff;
+  border: solid #222 2px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #eaeaea;
+  text-decoration: none;
+  color: #222;
+}
+
+form {
+  margin: 0 auto;
+  display: inline-block;
+  color: #222;
+  font-weight: 500;
+  text-align: center;
+  background: #eaeaea;
+  padding: 5px 20px;
+  border-radius: 7px;
+  width: -moz-max-content;
+  width: fit-content;
+  width: intrinsic;
+}
+
+footer {
+  text-align: center;
+}
