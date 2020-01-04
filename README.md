@@ -83,7 +83,48 @@ import { user as Bio } from "./Users.js";
 import { sum as Add, product as Multiply } from "./Calculator.js";
 ```
 
-### Using ES6 Modules
+It's possible to re-export a **module** - also called aggregating
+
+```js
+// re-export a module
+export { name } from './Module.js';
+
+// an equivalent to
+import { name } from './Module.js';
+export name;
+```
+
+There are two different types of export,
+**named** and **default**. You can have **multiple named exports per module** but only **one default export**.
+
+**Named exports** are useful to export several values. During the import, it is mandatory to use the same name of the corresponding object.
+
+```js
+// 1.0 named export
+export let age = 30;
+```
+
+a) Importing the named export....
+
+```js
+// 1.0 named import
+import { age } from "./Module.js";
+```
+
+But a **default export** can be imported with any name.
+
+```js
+// 2.0 default export
+let age = 30;
+export default age;
+```
+
+b) Importing default export...
+
+```js
+// 2.0 default export import - we have freedom to use any name
+import { aged } from "./Module.js";
+```
 
 All **module import** scripts must be loaded by setting a **type="module"** attribute in the **<script>** tag.
 
